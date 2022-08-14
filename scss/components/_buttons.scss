@@ -1,0 +1,101 @@
+.main-button {
+    display: inline-block;
+    margin-bottom: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    max-width: 200;
+    font-size: 16px;
+    line-height: 1.8;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 0.06em;
+    padding: 10px 32px; 
+    margin-top: 30px; 
+    &:hover {color:var(--title-text-color)}
+}
+
+.all-button {
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background: #2196F3;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: none;
+}
+.subscribe__button {
+    /* display: flex; */
+    min-width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8755;
+    background-color: var(--accent-color) ;
+    color: var(--primary-bcg-color);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+ }
+ .sub__button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 712px;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover {color: #000;}
+}
+
+.sub-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.modal__button {
+    position: absolute;
+    border-radius: 50%;
+    /* padding: 8px 10px; */
+    background-color: var(--primary-bcg-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    right: 8px;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    cursor: pointer;
+    background-color: inherit;
+    transition: color 250ms var(--timing-function);
+    &:hover {color: var(--accent-color)}
+    &:focus {color: var(--accent-color)}
+}
